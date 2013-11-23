@@ -1,0 +1,6 @@
+SERVER = 'gcm.googleapis.com'
+PORT = 5235
+USERNAME = "512994705229"
+API_KEY = "AIzaSyA729Zb6trwUUulzMKWUpVhel5Yrg88ihs"
+
+registration_ids = ["APA91bHIiF9k6rCdrNJTqfUeNMlqbskP3HMsR0SYkANAkP5DzUnLynjnq6xSVwGAM9x3OAePG9pxkHUsj7dMyjUW5lGvm7bFbxghYVgrThvXL6Lc2ilGSMJzsIBGmpnAsjzvunVSWzRArjkulsyIV9ZNmCQpN5ByN543WMHioT86Jtr_8NkEsfQ"]
