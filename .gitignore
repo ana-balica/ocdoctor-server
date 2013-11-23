@@ -39,5 +39,5 @@ nosetests.xml
 
 # Custom project
 env
-settings.py
+
 
