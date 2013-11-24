@@ -1,7 +1,5 @@
 from gcm import GCM
 
-from constants.gcm_data import *
-
 
 class Notification(object):
     """ Wrapper message class for server notifications
@@ -26,14 +24,3 @@ class Notification(object):
         if 'errors' in response:
             return response['errors']
         return True
-
-    def process(self):
-        pass
-
-if __name__ == "__main__":
-    # testing
-    notification = Notification(API_KEY)
-    data = {"bad": ["device_id1", "device_id2"],
-            "good": ["device_id3", "device_id4", "device_id5"]}
-    notification.send(registration_ids=registration_ids, data=data)
-    print "notification sent"
